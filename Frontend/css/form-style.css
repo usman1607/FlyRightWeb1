@@ -1,0 +1,163 @@
+/* FORM DESIGN.... */
+
+.sign-btn {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration-color: blue;
+    box-shadow: black 2px 4px 2px;
+    z-index: 3;
+}
+
+#sign-btn1 {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    position: fixed;
+}
+#sign-btn2 {
+    position: absolute;
+    top: 15px;
+    right: 120px;
+    position: fixed;
+}
+
+.sign-btn:hover {
+    background-color: skyblue;
+    text-decoration: wavy;
+}
+
+.form {
+	box-shadow: 5px 4px 5px #999;
+	padding: 20px;
+	max-width: 400px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+    border-top: 5px solid blue;  
+    margin: auto;
+    background: rgba(110,0,0,.25);
+}
+
+#gender {
+    width: 50%;
+}
+
+#message {
+    width: 400px;
+}
+
+.form-control {
+	display: block;
+	margin-bottom: 10px;
+	width: 85%;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.form-control:focus, .p_type {
+	border: 1px solid #900;
+	border-radius: 5px;
+}
+
+.pass-id {
+    margin-right: 50px;
+}
+
+.p_type {
+    width: 22%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+#adult {
+    display: block;
+}
+
+.btn-wine {
+    display: block;
+    border: none;
+    color: white;
+    font-weight: bolder;
+	background-color: rgb(207, 121, 23);
+	text-decoration-color: blue;
+	border-radius: 5px;
+	padding: 7px;
+    cursor: pointer;
+    box-shadow: black 2px 2px 2px;
+}
+
+.btn-wine:hover {
+    background-color: skyblue;
+    color:blue;
+}
+
+.box {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    width: 200px;
+    padding: 15px;
+    background: rgba(0,0,0, .4);
+    box-sizing: border-box;
+    box-shadow: 0, 15px, 25px rgba(0,0,0, .5);
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.box .input-box {
+    position: relative;
+}
+
+.box .input-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.box .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: nonw;
+    transition: .5s;
+}
+
+.box .input-box input:focus ~ label, .box .input-box input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: #03a9f4;
+    font-size: 12px;
+}
+
+.login-btn1 {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}

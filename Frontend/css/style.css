@@ -1,0 +1,123 @@
+
+body {
+    background-color: #f1f9f9;
+    margin: 0;
+    padding: 70px;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.bg-img {
+    background-image: url(../images/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    /* background-position: center; */
+}
+
+#logo {
+    z-index: 4;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    width: 120px;
+    cursor: pointer;
+    position: fixed;
+}
+
+img {
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.h1 {
+    margin-top: 0px;
+    /* margin-bottom: 20px; */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+    top: 0;
+	left: 0;
+	z-index: 1;
+    position: fixed;
+}
+
+/* .navigation {
+	background-color: blue;
+	padding: 10px;
+	width: 200px;
+	height: 1000px;
+	position: fixed;
+	top: 55px;
+	left: 0;
+	z-index: 3;
+}
+
+.navigation:before {
+	content: "FLY RIGHT AIRLINE";
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+
+.navigation > a {
+	text-decoration: none;
+	color: indigo;
+	display: block;
+	color: rgb(5, 4, 54);
+	margin-top: 5px;
+	background-color: #ddd;
+	padding: 7px;
+}
+
+.navigation a:hover {
+	background-color: #f90;
+} */
+
+.left-nav {
+    background-color: blue;
+	padding: 10px;
+	width: 200px;
+	height: 1000px;
+	position: fixed;
+	top: 55px;
+	right: 0;
+	z-index: 3;
+}
+
+.text-primary {
+    position: absolute;
+    top: 65px;
+    left: 240px;
+    width: 60%;
+	border: 2px solid green;
+	padding: 10px;
+}
+
+#left-img {
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+#right-img {
+    width: 200px;
+    height: 150px;
+    margin-top: 295px;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fly Right Airline</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/form-style.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+</head>
+    <body class="bg-img">
+
+        <a href="index.html"><img id="logo" src="images/logo.png" alt="logo"></a>
+
+        <!-- <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="sign_up.html">Register</a>
+            <a href="#">Check Available Flight</a>
+            <a href="#">Book A Flight</a>
+            <a href="contact.html">Contact Us</a>
+            <img id="left-img" src="images/lagos.jpg" alt="">
+        </nav> -->
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="sign_up.html">Register</a>
+            <div class="dropdown">
+                <button class="dropbtn">Manage Aircraft 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Create Aircraft</a>
+                  <a href="#">Display All Aircrafts</a>
+                  <a href="#">Find An Aircraft</a>
+                  <a href="#">Update An Aircraft</a>
+                  <a href="#">Remove Aircraft</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Manage Flight 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Create Flight"</a>
+                  <a href="#">Display AllFlights</a>
+                  <a href="#">Find A Flight</a>
+                  <a href="#">Update A Flight</a>
+                  <a href="#">Remove Flight</a>
+                </div>
+            </div> 
+            <div class="dropdown">
+              <button class="dropbtn">Manage Booking 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Book Flight</a>
+                <a href="#">Cancel Booking</a>
+                <a href="#">Edit Booking</a>
+                <a href="#">Find A Booking</a>
+                <a href="#">Show All Bookings</a>
+              </div>
+            </div> 
+            <div class="dropdown">
+                <button class="dropbtn">Manage Passenger 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Find A Passengers</a>
+                  <a href="#">Show All Passengers</a>
+                  <a href="#">Edit A Passengers Detail</a>
+                  <a href="#">Delete A Passengers</a>
+                </div>
+              </div> 
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            <img id="left-img" src="images/lagos.jpg" alt="">
+        </div>
+        
+        <a href="index.html"><h1 class="h1">Fly Right Airline</h1></a>
+        <button onclick="" id="sign-btn1" class="sign-btn">Sign Up</button> 
+        <button onclick="" id="sign-btn2" class="sign-btn">Sign In</button>
+
+        <form class="form" id="message">
+			<label>Full Name:</label>
+			<input type="text" id="location" class="form-control" placeholder="Enter your full name..." required>
+
+			<label>Email:</label>
+			<input type="email" id="location" class="form-control" placeholder="Enter your email..." required>
+
+			<label>Subject:</label>
+            <input type="text" id="d_date" class="form-control" placeholder="Message Subject..." required>
+
+            <label>Message:</label>
+            <textarea name="message" class="form-control" placeholder="Message Subject..." cols="30" rows="10" required></textarea>
+           
+			<input type="submit" id="btn-click" class="btn-wine" value="SUBMIT">
+        </form>
+        <div class="left-nav">
+            <div class="box">
+                <h2>Sign In</h2>
+                <form>
+                    <div class="input-box">
+                        <input type="text" name="username" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <input type="submit" value="Login" class="login-btn1">
+                </form>
+            </div>
+            <img id="right-img" src="images/tour2.jpg" alt="">
+        </div>
+
+
+    </body>
+    <footer> &copy; Fly Right Airline 2020 &ndash; All right reservered...</footer>
+
+</html>
